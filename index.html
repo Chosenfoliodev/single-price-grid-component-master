@@ -3,177 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sunnyside Agency</title>
+    <title>Frontend Mentor | Single Price Grid Component</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
     />
   </head>
+
   <body>
-    <!-- Hero Section -->
-    <header class="hero">
-      <!-- Hero image -->
-      <img
-        src="images/desktop/image-header 1.png"
-        alt="Orange background"
-        class="hero-img"
-      />
-      <!-- Navbar -->
-      <nav class="navbar">
-        <a href="#"
-          ><img src="images/logo.svg" alt="Sunnyside logo" class="logo"
-        /></a>
-        <ul class="nav-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a h ref="#">Projects</a></li>
-          <li><a href="#" class="contact-btn">Contact</a></li>
-        </ul>
-      </nav>
-
-      <!-- Hero text -->
-      <div class="hero-text">
-        <h2>WE ARE CREATIVES</h2>
-        <img
-          src="images/icon-arrow-down.svg"
-          alt="Arrow Down Icon"
-          class="arrow-icon"
-        />
-      </div>
-    </header>
-
-    <!-- First Section class -->
-    <section class="content-section">
-      <div class="text-column">
-        <h2>Transform your brand</h2>
-
-        <p>
-          We are a full-service creative agency specializing in helping brands
-          grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you.
-        </p>
-        <a href="#" class="learn-link">Learn more</a>
-      </div>
-      <div class="image-column">
-        <img
-          src="images/desktop/image-transform-bf5fb4d8.jpg"
-          alt="Transform your brand"
-        />
-      </div>
-    </section>
-
-    <!-- Second Section class -->
-    <section class="content-section">
-      <div class="image-column">
-        <img
-          src="images/desktop/image-stand-out-824b871c.jpg"
-          alt="Stand out to the right audience"
-        />
-      </div>
-      <div class="text-column red-bg">
-        <h2>Stand out to the right audience</h2>
-        <p>
-          Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we’ll build and extend
-          your brand in digital places.
-        </p>
-        <a href="#" class="learn-link red-underline">Learn more</a>
-      </div>
-    </section>
-
-    <!-- Third Section class -->
-    <section class="content-section">
-      <div class="image-block graphic-design">
-        <h3>Graphic Design</h3>
-        <p>
-          Great design Great design makes you memorable. We deliver artwork that
-          underscores your brand message and captures potential clients’
-          attention.
-        </p>
-      </div>
-
-      <div class="image-block photography">
-        <h3>Photography</h3>
-        <p>
-          Increase your credibility by getting the most stunning, high quality
-          photos that improve your business image.
-        </p>
-      </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="testimonials">
-      <h4>CLIENT TESTIMONIALS</h4>
-      <div class="testimonial-grid">
-        <div class="testimonial-card">
-          <img src="images/image-emily.jpg" alt="Emily R" />
+    <div class="joy">
+      <!-- First Section class -->
+      <section class="community-section">
+        <div class="text-column">
+          <h2>Join our community</h2>
+          <h3>30-day, hassle-free money back guarantee</h3>
           <p>
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
+            Gain access to our full library of tutorials along with expert code
+            reviews. <br />
+            Perfect for any developers who are serious about honing their
+            skills.
           </p>
-          <h5>Emily R.</h5>
-          <span>Chief Operating Officer</span>
+        </div>
+      </section>
+
+      <!-- Second Section class -->
+      <section class="subscription-section">
+        <div class="lefttext-column">
+          <h2>Monthly Subscription</h2>
+          <!-- <h1>&dollar;29</h1> -->
+          <div class="price-container">
+            <span class="price">$29</span>
+            <span class="period"> per month </span>
+          </div>
+          <p>Full access for less than &dollar;1 a day</p>
+          <button>Sign Up</button>
         </div>
 
-        <div class="testimonial-card">
-          <img src="images/image-thomas.jpg" alt="Thomas" />
-          <p>
-            Sunnyside’s enthusiasm coupled with their keen interest in our
-            brand’s success made it a satisfying and enjoyable experience.
-          </p>
-          <h5>Thomas S.</h5>
-          <span>Chief Operating Officer</span>
+        <div class="righttext-column">
+          <h1>Why Us</h1>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
         </div>
-
-        <div class="testimonial-card">
-          <img src="images/image-jennie.jpg" alt="Jennie" />
-          <p>
-            Incredible end result! Our sales increased over 40% when we worked
-            with Sunnyside. Highly recommended!
-          </p>
-          <h5>Jennie F.</h5>
-          <span>Business Owner</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Image Gallery -->
-    <section class="gallery">
-      <img
-        src="images/desktop/image-gallery-milkbottles.jpg"
-        alt="Milkbottles"
-      />
-      <img src="images/desktop/image-gallery-orange.jpg" alt="Orange" />
-      <img src="images/desktop/image-gallery-cone.jpg" alt="Cone" />
-      <img
-        src="images/desktop/image-gallery-sugarcubes.jpg"
-        alt="Sugar Cubes"
-      />
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-      <img src="images/logo.svg" alt="Sunnyside logo" class="footer-logo" />
-
-      <ul class="footer-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-
-      <div class="social-icons">
-        <a href="#"
-          ><img src="images/icon-facebook.svg" alt="Facebook Icon"
-        /></a>
-        <a href="#"
-          ><img src="images/icon-instagram.svg" alt="Instagram Icon"
-        /></a>
-        <a href="#"><img src="images/icon-twitter.svg" alt="Twitter Icon" /></a>
-        <a href="#"
-          ><img src="images/icon-pinterest.svg" alt="Pinterest Icon"
-        /></a>
-      </div>
-    </footer>
+      </section>
+    </div>
   </body>
 </html>
